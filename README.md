@@ -12,9 +12,9 @@ pip install -v -e .
 ```
 
 - Add custom modules
-- [Custom roi_head](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/guidegcn_roi_head.py) and corresponding [init.py](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/__init__.py)
-- [Custom bbox_head](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/bbox_heads/grgn_bbox_head.py) and corresponding [init.py](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/bbox_heads/__init__.py)
-- [Custom config](https://github.com/221812/PLCD_GRGN/blob/master/configs/grgn/grgn_r50_fpn_voc.py)
+    - [Custom roi_head](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/guidegcn_roi_head.py) and corresponding [init.py](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/__init__.py)
+    - [Custom bbox_head](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/bbox_heads/grgn_bbox_head.py) and corresponding [init.py](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/bbox_heads/__init__.py)
+    - [Custom config](https://github.com/221812/PLCD_GRGN/blob/master/configs/grgn/grgn_r50_fpn_voc.py)
 
 # Usages
 - Generate co-occur information
