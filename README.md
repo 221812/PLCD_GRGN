@@ -1,9 +1,20 @@
 # PLCD_GRGN
-This repo is the implementation of the under review paper.
-The detailed usages is coming soon...
+This repo is the implementation of [GRGN](https://ieeexplore.ieee.org/document/9976247).
 
 # Installation
 Please refer to the [Installation](https://mmdetection.readthedocs.io/en/stable/get_started.html) of mmdetection. The version of mmdetection is 2.20.0.
+
+- Prepare MMDET env
+```
+git clone https://github.com/open-mmlab/mmdetection.git
+cd mmdetection
+pip install -v -e .
+```
+
+- Add custom modules
+- [Custom roi_head](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/guidegcn_roi_head.py) and corresponding [init.py](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/__init__.py)
+- [Custom bbox_head](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/bbox_heads/grgn_bbox_head.py) and corresponding [init.py](https://github.com/221812/PLCD_GRGN/blob/master/mmdet/models/roi_heads/bbox_heads/__init__.py)
+- [Custom config](https://github.com/221812/PLCD_GRGN/blob/master/configs/grgn/grgn_r50_fpn_voc.py)
 
 # Usages
 - Generate co-occur information
